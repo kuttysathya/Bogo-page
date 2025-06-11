@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogo Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="heading">
+            <h2>YAY! It's BOGO</h2>
+        </div>
+        <div class="boxes">
+            <div id="box1" class="box">
+                <div class="offer-section">
+                    <div class="unit">
+                        <input type="radio" name="option1" id="radio1" value="1" data-cost="10.00">
+                        <label for="unit1">1 Unit <span>10% Off</span></label>
+                        <h3>Standard Price</h3>
+                    </div>
+                    <div>
+                        <p class="price">$10.00 USD <br><del>$14.00 USD</del></p>
+                    </div>
+                </div>
+            </div>
+            <div id="box2" class="box">
+                <div class="offer-section">
+                    <div class="unit">
+                        <input type="radio" name="option2" id="radio2" value="2" data-cost="30">
+                        <label for="unit1">2 Unit <span>20% Off</span></label>
+                    </div>
+                    <div>
+                        <p class="price">$30.00 USD <br><del>$34.00 USD</del></p>
+                    </div>
+                </div>
+            </div>
+            <div id="box3" class="box">
+                <div class="offer-section">
+                    <div class="unit">
+                        <input type="radio" name="option3" id="radio3" value="3" data-cost="48">
+                        <label for="unit1">3 Unit <span>30% Off</span></label>
+                    </div>
+                    <div>
+                        <p class="price">$48.00 USD <br><del>$56.00 USD</del></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="delivery-info">
+                <div class="info">Free Delivery</div>
+                <div id="total"> Total :</div>
+            </div>
+            <button class="add-to-cart" onclick="message()"> + Add to Cart </button>
+            <p class="powered">@ Powered by Sathya</p>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
